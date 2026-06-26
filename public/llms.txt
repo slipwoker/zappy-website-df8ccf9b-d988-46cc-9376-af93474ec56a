@@ -1,0 +1,90 @@
+# מר וגברת פון מעבדת הסלולר שלך — Generative Engine Optimization Map
+
+> A home-based mobile phone shop and repair lab offering a convenient door-to-door service model — customers can have their devices picked up, repaired, and returned to their home. The business combines retail phone sales with a professional repair workshop, all operated from a residential setting, emphasizing accessibility and personal service.
+
+---
+
+## Pages
+
+### בית
+https://-df8ccf9b.zappy5.app
+מעבדת תיקונים ומכירת טלפונים עד הבית – אוספים, מתקנים ומחזירים ישר לידיים שלך. שירות אישי, מהיר ומקצועי שמגיע עד אליך. לחץ לרכישה או תיקון עוד היום!
+
+### שירותים
+https://-df8ccf9b.zappy5.app/services
+מסך שבור? סוללה חלשה? קבלו תיקון טלפון עם שירות שליחות לבית, איסוף מהיר והחזרה עד לפתח. מעבדה מקצועית עם יחס אישי – בדיוק כמו שצריך. צפו בשירותים שלנו!
+
+### אודות
+https://-df8ccf9b.zappy5.app/about
+הכירו את מר וגברת פון – מעבדת סלולר ביתית עם מוניטין של אמינות, מקצועיות וחיוך. אנחנו מאמינים שתיקון טלפון צריך להיות פשוט, נוח וקרוב. קראו את הסיפור שלנו!
+
+### צור קשר
+https://-df8ccf9b.zappy5.app/contact
+רוצים לתקן או לקנות טלפון? מלאו פרטים ונקפוץ לאסוף – שירות דלת לדלת ממר וגברת פון. מעבדת תיקונים שמגיעה עד הבית, בדיוק כשנוח לך. צרו קשר עכשיו!
+
+### תודה שפניתם אלינו
+https://-df8ccf9b.zappy5.app/thank-you
+מר וגברת פון מעבדת הסלולר שלך - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://-df8ccf9b.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-df8ccf9b.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-df8ccf9b.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-df8ccf9b.zappy5.app/contact
+- Endpoint: https://-df8ccf9b.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `phone` (tel)
+  - `email` (email)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About מר וגברת פון מעבדת הסלולר שלך
+A home-based mobile phone shop and repair lab offering a convenient door-to-door service model — customers can have their devices picked up, repaired, and returned to their home. The business combines retail phone sales with a professional repair workshop, all operated from a residential setting, emphasizing accessibility and personal service.
+
+## Services/Products
+- מכירת טלפונים
+- מעבדת תיקונים
+- שירות שליחות לבית הלקוח
+- איסוף וחזרה מהבית
+
+## Target Audience
+- הורים צעירים בדרכים
+- עובדים מרחוק
+- חובבי טכנולוגיה
+- מבוגרים הזקוקים לתמיכה
+- בעלי עסקים קטנים
+
+## Industry
+Electronics Repair & Sales
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-df8ccf9b.zappy5.app/sitemap.xml
+- Robots: https://-df8ccf9b.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-df8ccf9b.zappy5.app/llms-full.txt
