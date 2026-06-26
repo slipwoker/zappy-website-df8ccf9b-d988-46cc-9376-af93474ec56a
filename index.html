@@ -352,15 +352,15 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0525313868" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
   <div class="nav-container">
@@ -814,7 +814,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0525313868';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -843,14 +843,14 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <pattern id="circuit-dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-          <circle cx="2" cy="2" r="1.5" fill="currentColor" opacity="0.4"/>
-          <circle cx="12" cy="2" r="1" fill="currentColor" opacity="0.2"/>
-          <circle cx="2" cy="12" r="1" fill="currentColor" opacity="0.2"/>
+          <circle cx="2" cy="2" r="1.5" fill="currentColor" opacity="0.4"></circle>
+          <circle cx="12" cy="2" r="1" fill="currentColor" opacity="0.2"></circle>
+          <circle cx="2" cy="12" r="1" fill="currentColor" opacity="0.2"></circle>
         </pattern>
       </defs>
-      <rect width="400" height="400" fill="url(#circuit-dots)"/>
-      <line x1="0" y1="200" x2="400" y2="200" stroke="currentColor" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 8"/>
-      <line x1="200" y1="0" x2="200" y2="400" stroke="currentColor" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 8"/>
+      <rect width="400" height="400" fill="url(#circuit-dots)"></rect>
+      <line x1="0" y1="200" x2="400" y2="200" stroke="currentColor" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 8"></line>
+      <line x1="200" y1="0" x2="200" y2="400" stroke="currentColor" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 8"></line>
     </svg>
   </div>
 
@@ -874,21 +874,21 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="divider-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="1"/>
-          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"/>
+          <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="1"></stop>
+          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,15 Q80,20 160,12 T320,18 Q400,12 480,20 T640,15 Q720,22 800,18 T960,12 Q1040,20 1120,15 T1200,18 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,15 Q80,20 160,12 T320,18 Q400,12 480,20 T640,15 Q720,22 800,18 T960,12 Q1040,20 1120,15 T1200,18 L1200,80 Z" fill="var(--bg-light)"></path>
       <!-- Circuit-line accents along the edge -->
       <g stroke="var(--primary)" stroke-width="1.2" fill="none" opacity="0.3">
-        <polyline points="0,15 40,15 40,25 80,25"/>
-        <circle cx="80" cy="25" r="2.5" fill="var(--primary)"/>
-        <polyline points="320,18 360,18 360,28 400,28"/>
-        <circle cx="400" cy="28" r="2.5" fill="var(--primary)"/>
-        <polyline points="640,15 680,15 680,25 720,25"/>
-        <circle cx="720" cy="25" r="2.5" fill="var(--primary)"/>
-        <polyline points="960,12 1000,12 1000,22 1040,22"/>
-        <circle cx="1040" cy="22" r="2.5" fill="var(--primary)"/>
+        <polyline points="0,15 40,15 40,25 80,25"></polyline>
+        <circle cx="80" cy="25" r="2.5" fill="var(--primary)"></circle>
+        <polyline points="320,18 360,18 360,28 400,28"></polyline>
+        <circle cx="400" cy="28" r="2.5" fill="var(--primary)"></circle>
+        <polyline points="640,15 680,15 680,25 720,25"></polyline>
+        <circle cx="720" cy="25" r="2.5" fill="var(--primary)"></circle>
+        <polyline points="960,12 1000,12 1000,22 1040,22"></polyline>
+        <circle cx="1040" cy="22" r="2.5" fill="var(--primary)"></circle>
       </g>
     </svg>
   </div>
@@ -904,11 +904,11 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon-area">
           <svg class="index-services-section__card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-            <rect x="4" y="10" width="40" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
-            <path d="M16 38V34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M32 38V34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
-            <circle cx="24" cy="24" r="2" fill="currentColor"/>
+            <rect x="4" y="10" width="40" height="28" rx="4" stroke="currentColor" stroke-width="2"></rect>
+            <path d="M16 38V34" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M32 38V34" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2"></circle>
+            <circle cx="24" cy="24" r="2" fill="currentColor"></circle>
           </svg>
         </div>
         <div class="index-services-section__card-content">
@@ -919,8 +919,8 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon-area">
           <svg class="index-services-section__card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-            <path d="M24 4L30 16H42L34 24L38 36L24 28L10 36L14 24L6 16H18L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-            <path d="M18 16L24 28L30 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M24 4L30 16H42L34 24L38 36L24 28L10 36L14 24L6 16H18L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M18 16L24 28L30 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <div class="index-services-section__card-content">
@@ -931,12 +931,12 @@
       <article class="index-services-section__card">
         <div class="index-services-section__card-icon-area">
           <svg class="index-services-section__card-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-            <rect x="8" y="12" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
-            <path d="M20 36V28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M28 36V28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="24" cy="22" r="3" stroke="currentColor" stroke-width="2"/>
-            <path d="M16 18L18 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M32 18L30 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <rect x="8" y="12" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"></rect>
+            <path d="M20 36V28" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M28 36V28" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="22" r="3" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M16 18L18 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M32 18L30 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <div class="index-services-section__card-content">
@@ -950,13 +950,13 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="servicesDividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#11B5C9" stop-opacity="0.4"/>
-          <stop offset="50%" stop-color="#5B5FEF" stop-opacity="0.6"/>
-          <stop offset="100%" stop-color="#11B5C9" stop-opacity="0.4"/>
+          <stop offset="0%" stop-color="#11B5C9" stop-opacity="0.4"></stop>
+          <stop offset="50%" stop-color="#5B5FEF" stop-opacity="0.6"></stop>
+          <stop offset="100%" stop-color="#11B5C9" stop-opacity="0.4"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,50 Q40,42 80,48 T160,44 Q200,48 240,42 T320,46 Q360,40 400,44 T480,38 Q520,44 560,40 T640,46 Q680,42 720,48 T800,44 Q840,48 880,42 T960,46 Q1000,40 1040,44 T1120,38 Q1160,44 1200,40 L1200,80 Z" fill="#0A1628"/>
-      <path d="M0,80 L0,58 Q60,50 120,56 T240,52 Q300,56 360,50 T480,54 Q540,48 600,52 T720,46 Q780,52 840,48 T960,54 Q1020,50 1080,56 T1200,48 L1200,80 Z" fill="#0A1628" opacity="0.9"/>
+      <path d="M0,80 L0,50 Q40,42 80,48 T160,44 Q200,48 240,42 T320,46 Q360,40 400,44 T480,38 Q520,44 560,40 T640,46 Q680,42 720,48 T800,44 Q840,48 880,42 T960,46 Q1000,40 1040,44 T1120,38 Q1160,44 1200,40 L1200,80 Z" fill="#0A1628"></path>
+      <path d="M0,80 L0,58 Q60,50 120,56 T240,52 Q300,56 360,50 T480,54 Q540,48 600,52 T720,46 Q780,52 840,48 T960,54 Q1020,50 1080,56 T1200,48 L1200,80 Z" fill="#0A1628" opacity="0.9"></path>
     </svg>
   </div>
 </section>
@@ -1033,7 +1033,7 @@
     <!-- Bottom Gradient Arc Divider -->
     <div class="process-divider-wrapper" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,120 L0,30 Q300,120 600,30 Q900,-60 1200,30 L1200,120 Z" fill="#FFFFFF"/>
+            <path d="M0,120 L0,30 Q300,120 600,30 Q900,-60 1200,30 L1200,120 Z" fill="#FFFFFF"></path>
         </svg>
     </div>
 
@@ -1056,7 +1056,7 @@
       <article class="index-testimonials-section__card index-testimonials-section__card--feature">
         <div class="index-testimonials-section__card-accent"></div>
         <div class="index-testimonials-section__card-content">
-          <svg class="index-testimonials-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
+          <svg class="index-testimonials-section__quote-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"></path></svg>
           <blockquote class="index-testimonials-section__quote">
             <p class="index-testimonials-section__quote-text">"שלחתי טלפון לתיקון מסך שבור בצהריים, ועד הערב הוא כבר חזר אליי הביתה כמו חדש. לא הייתי צריך לזוז מהכיסא. פשוט שירות מושלם."</p>
           </blockquote>
@@ -1117,8 +1117,8 @@
   <!-- Bottom Angular Divider -->
   <div class="index-testimonials-section__divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,20 L1200,0 L1200,80 Z" fill="#0A1628"/>
-      <path d="M0,80 L0,25 L1200,5 L1200,80 Z" fill="#0A1628" opacity="0.15"/>
+      <path d="M0,80 L0,20 L1200,0 L1200,80 Z" fill="#0A1628"></path>
+      <path d="M0,80 L0,25 L1200,5 L1200,80 Z" fill="#0A1628" opacity="0.15"></path>
     </svg>
   </div>
 </section>
@@ -1168,25 +1168,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:mr.mrs.phone@gmail.com">mr.mrs.phone@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0525313868">0525313868</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+            <span class="contact-text">שדרות בנימין 28</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1218,7 +1216,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0525313868" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
