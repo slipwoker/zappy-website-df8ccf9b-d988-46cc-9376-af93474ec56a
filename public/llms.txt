@@ -45,8 +45,8 @@ Information about WCAG compliance and accessibility features.
 ## How to Contact Us
 
 - Email: mr.mrs.phone@gmail.com
-- Phone: 0525313868
-- Phone (tel): tel:0525313868
+- Phone: +972525313868
+- Phone (tel): tel:+972525313868
 - Address: שדרות בנימין 28
 
 ### Contact form
